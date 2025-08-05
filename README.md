@@ -1,5 +1,5 @@
 ## Trans-Adapter: A Plug-and-Play Framework for Transparent Image Inpainting (ICCV2025)
-Paper | [Project Page](https://ykdai.github.io/projects/trans-adapter) 
+[Paper](https://arxiv.org/abs/2508.01098) | [Project Page](https://ykdai.github.io/projects/trans-adapter) | [Dataset](https://drive.google.com/file/d/10am4n6q8fv3fG1ykSLBecn5jfjFVaWGD/)
 
 [Yuekun Dai](https://ykdai.github.io/), [Haitian Li](https://quest4science.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)
 
@@ -14,6 +14,7 @@ Code will be released soon. Please stay tuned.
 ### Abstract
 
 RGBA images, with the additional alpha channel, are crucial for any application that needs blending, masking, or transparency effects, making them more versatile than standard RGB images. Nevertheless, existing image inpainting methods are designed exclusively for RGB images. Conventional approaches to transparent image inpainting typically involve placing a background underneath RGBA images and employing a two-stage process: image inpainting followed by image matting. This pipeline, however, struggles to preserve transparency consistency in edited regions, and matting can introduce jagged edges along transparency boundaries. To address these challenges, we propose Trans-Adapter, a plug-and-play adapter that enables diffusion-based inpainting models to process transparent images directly. Trans-Adapter also supports controllable editing via ControlNet and can be seamlessly integrated into various community models. To evaluate our method, we introduce LayerBench, along with a novel non-reference alpha edge quality evaluation metric for assessing transparency edge quality. 
+
 
 ### Citation
 
